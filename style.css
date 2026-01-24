@@ -1,8 +1,25 @@
+/* General Styles */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
 header {
     background-color: #333;
     color: antiquewhite;
     padding: 20px;
 }
+
+/* Navigation Bar */
+nav {
+    background: #3f5e34;
+    color: #fff;
+    padding: 1em 0;
+}
+
 
 /* Hero Section */
 .hero img {
@@ -18,4 +35,14 @@ header {
     gap: 10px;
     flex-wrap: wrap;
 }
+
+ /* Biography section */
+ .MYBio {
+    max-width: 600px;
+    margin:10px;
+    font-size: 20px;
+    line-height: 1.5;
+ }
+
+
  
