@@ -3,3 +3,19 @@ header {
     color: antiquewhite;
     padding: 20px;
 }
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+ /* Photo section */
+.photos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+ 
